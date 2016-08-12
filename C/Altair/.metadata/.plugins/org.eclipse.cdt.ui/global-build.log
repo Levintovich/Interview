@@ -1,0 +1,214 @@
+20:39:34 **** Build of configuration Default for project makef ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+20:40:52 **** Incremental Build of configuration Debug for project Reverse ****
+make all 
+make: Nothing to be done for `all'.
+20:40:52 **** Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+20:40:56 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:41:03 **** Incremental Build of configuration Debug for project Reverse ****
+make all 
+make: Nothing to be done for `all'.
+20:41:03 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:41:09 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:42:18 **** Incremental Build of configuration Debug for project Reverse ****
+make all 
+make: Nothing to be done for `all'.
+20:42:18 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:44:01 **** Build of configuration Debug for project targil1 ****
+make all 
+Building file: ../src/targil1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil1.d" -MT"src/targil1.d" -o "src/targil1.o" "../src/targil1.c"
+Finished building: ../src/targil1.c
+ 
+Building target: targil1
+Invoking: GCC C Linker
+gcc  -o "targil1"  ./src/targil1.o   
+Finished building target: targil1
+ 
+20:51:00 **** Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+20:51:05 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:51:34 **** Incremental Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+20:51:39 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:53:11 **** Incremental Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+20:53:15 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:55:50 **** Incremental Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+../src/targil.c: In function ‘main’:
+../src/targil.c:18:8: warning: unused variable ‘token’ [-Wunused-variable]
+  char *token;
+        ^
+../src/targil.c:17:13: warning: unused variable ‘EndOfLine’ [-Wunused-variable]
+  const char EndOfLine[2] = "\n";
+             ^
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+20:55:55 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:56:09 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:56:49 **** Incremental Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+20:56:56 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:57:57 **** Incremental Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+../src/targil.c: In function ‘main’:
+../src/targil.c:18:8: warning: unused variable ‘token’ [-Wunused-variable]
+  char *token;
+        ^
+../src/targil.c:17:13: warning: unused variable ‘EndOfLine’ [-Wunused-variable]
+  const char EndOfLine[2] = "\n";
+             ^
+../src/targil.c:16:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[100];
+       ^
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+20:58:04 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:58:55 **** Incremental Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+../src/targil.c: In function ‘main’:
+../src/targil.c:18:8: warning: unused variable ‘token’ [-Wunused-variable]
+  char *token;
+        ^
+../src/targil.c:17:13: warning: unused variable ‘EndOfLine’ [-Wunused-variable]
+  const char EndOfLine[2] = "\n";
+             ^
+../src/targil.c:16:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[100];
+       ^
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+20:58:58 **** Incremental Build of configuration Debug for project targil ****
+make all 
+make: Nothing to be done for `all'.
+20:59:43 **** Incremental Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+../src/targil.c: In function ‘main’:
+../src/targil.c:18:8: warning: unused variable ‘token’ [-Wunused-variable]
+  char *token;
+        ^
+../src/targil.c:17:13: warning: unused variable ‘EndOfLine’ [-Wunused-variable]
+  const char EndOfLine[2] = "\n";
+             ^
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+21:00:11 **** Incremental Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 

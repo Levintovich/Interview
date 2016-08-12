@@ -1,0 +1,6 @@
+20:39:34 **** Build of configuration Default for project makef ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+20:39:34 Build Finished (took 58ms)
+

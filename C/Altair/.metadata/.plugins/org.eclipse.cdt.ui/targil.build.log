@@ -1,0 +1,15 @@
+21:00:11 **** Incremental Build of configuration Debug for project targil ****
+make all 
+Building file: ../src/targil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/targil.d" -MT"src/targil.d" -o "src/targil.o" "../src/targil.c"
+Finished building: ../src/targil.c
+ 
+Building target: targil
+Invoking: GCC C Linker
+gcc  -o "targil"  ./src/targil.o   
+Finished building target: targil
+ 
+
+21:00:11 Build Finished (took 152ms)
+
