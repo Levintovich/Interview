@@ -1,0 +1,48 @@
+DevOps in 2 simple word and if to be more clear I would like to explain
+all DevOps prioncipes and needing according to the projects in which I took an active part.
+There are 2 ALM Octane and NextGen Syncronizer.
+These project descriptions you can find on the following links so that I don't see a reason not
+to explain a functionality of them. I recommend to see a demo in order to realize an importance of 
+princepis which I will describe later.
+So if I'm going back to saying "all DevOps principes", it's also is not clear beacuse I used the specific 
+tools and went by the specific way - Continuous Deployment (CD).
+I try to explain why do we need Continuous Deployment or DevOps methodologies here.
+As you saw this project has a Web Interface. This is a multitenant system. Tenant is some big company (bank,
+insure  or medical company, etc) with many users. And of course, we see that for these purposes need to connect
+to database or if to be more exact, need to use database clusters.
+An idea was implemented by Development team as On-Premise on one server. 
+Web portal is connecting to Web Service and Web Service is interacting with the Data Base.
+But this system is multitenant with thousands users and as we can understand resourses of the server,
+where was implemented this project, are not sufficient for all users.
+So what to do????
+We are going to the Cloud. And we see essentiality of the following things as PAAS(Platform As Services) and
+of course SAAS(Software As Services).
+For this purpose in order this product will work effectly need to build the infrastructure (many servers
+with the specific configurations, Reverse Proxy, Load Balancers) and need to change a software according to this
+new infrastructure.
+How to change????
+And we are going back to the question. Why do we need CD - Continious Deployment?
+All the time product is modifyed, modernized and new product version is released.
+But how to update or upgrade a new version? We have a more than 100 servers on the Cloud and
+how is it possible to install a new version here? 
+This is a main part of Continious Deployment.
+I use Jenkins tool in order to automate deployment process: to take an appropriate version from
+artifacts repositories, to download a latest source code from Git. GitHub is one of the possible 
+repositories for managing and controlling source versions.
+After I use orchestration technique for deployment a specific version on the specific SAAS farm.
+Ansible - is very perfect tool for managing complex deployments.
+And the latest question: what happens if some server is not working or something happened on the 
+specific server or even few servers???
+I use monitoring tool Nagios. It helps me to monitore a status of all servers and I can to prevent
+some problems before "fire is growing".
+I hope my article is found usable and practical for you.
+At the next article I will try to describe about a more technologies and practical examples in the 
+world of DevOps and Cloud :)
+
+
+
+
+
+
+
+

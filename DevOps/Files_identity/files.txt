@@ -1,0 +1,8 @@
+f0b71d723ef9af41796bac097e8e4b20  ./test/AA
+3fd4bed4a8bd89854e442600517edd5b  ./test/C
+ad6fc4ed02c40539f6ef09877be40691  ./test/BB
+3fd4bed4a8bd89854e442600517edd5b  ./test/CC
+f0b71d723ef9af41796bac097e8e4b20  ./test/A
+ad6fc4ed02c40539f6ef09877be40691  ./test/B
+6ef67a254ef0413387e7c55119891181  ./test/D
+21ef6cf581a831bec85e8702e1280ed0  ./test/DD
